@@ -1,0 +1,14 @@
+{
+  "js":[
+    "./node_modules/jquery/dist/jquery.js",
+    "./app/js/main.js",
+    "./app/js/second.js"
+
+  ],
+  "css":[
+
+  ],
+  "fonts":[
+
+  ]
+}
