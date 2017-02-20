@@ -1,0 +1,33 @@
+h2{
+    margin: 80px 0 40px;
+    color: white;
+    border-bottom:1px solid gray;
+}
+
+table {
+    width: 100%;
+}
+table td{
+    border: 1px solid gray;
+    color: white;
+    font-size: 9pt;
+    padding-left: 10px;
+    height: 40px;
+}
+table th{
+    border: 1px solid black;
+    background: lightgray;
+    padding: 5px 10px;
+}
+table th:last-child{
+    width: 8%;
+    text-align: center;
+}
+.notDane{
+    background-image: url("../../image/notDane.svg");
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin: 0 auto;
+
+}

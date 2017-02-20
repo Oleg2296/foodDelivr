@@ -1,0 +1,63 @@
+
+<div class="row">
+    <div class="col-lg-11 col-md-11 col-sm-11 offset-lg-1 offset-md-1 offset-sm-1 order_zag">
+<h2>Замовлення</h2>
+    </div>
+    <div class="col-lg-10 col-md-10 col-sm-10 offset-lg-2 offset-md-1 offset-sm-1 table-responsive tbl">
+<table class="tbl_ord">
+    <tr class="tbl_zagolovok">
+        <th class="num">№</th>
+        <th>User</th>
+        <th>date</th>
+        <th>order</th>
+        <th class="amount">amount</th>
+        <th class="done">done</th>
+        <th class="done2">edit</th>
+
+    </tr>
+    <tr *ngFor="let dish of orders">
+        <td class="num">{{dish.orderId}}</td>
+        <td>{{dish.orderFood}}</td>
+        <td>{{dish.orderFood2}}</td>
+        <td>{{dish.drink}}</td>
+        <td class="amount">{{dish.orderId}}</td>
+        <td><div class="okay"(click)="archOrd(dish)"></div></td>
+        <td><div class="change" (click)="myModal.open()"></div></td>
+    </tr>
+</table>
+<table class=" table_arch table-bordered tbl_arch">
+    <tr *ngFor="let dish of archOrds; let i = index" >
+        <td class="num">{{dish.orderId}}</td>
+        <td>{{dish.orderFood}}</td>
+        <td>{{dish.orderFood2}}</td>
+        <td>{{dish.drink}}</td>
+        <td class="amount">{{dish.orderId}}</td>
+        <td class="done"><div class="back"(click)="toOrd(dish)"></div></td>
+        <td class="done2"><div class="notDane"(click)="delete(dish)"></div></td>
+    </tr>
+</table>
+    </div>
+</div>
+
+
+<div class="row">
+
+
+    <modal #myModal>
+        <modal-header>
+            <h1>змінити замовлення</h1>
+        </modal-header>
+        <modal-content>
+            <input type="text" placeholder="перша страва" ngModel="newUser.name"><br>
+            <input type="text" placeholder="друга страва"><br><input type="text" placeholder="напої"><br>
+        </modal-content>
+        <modal-footer>
+            <button class="btn btn-primary" (click)="myModal.close()">close</button>
+            <button class="btn btn-primary" (click)="myModal.close()">close</button>
+        </modal-footer>
+    </modal>
+</div>
+
+<!--<a routerLink="../modal" routerLinkActive="active">Modal</a>-->
+
+
