@@ -1,0 +1,94 @@
+
+.header{
+    height: 80px;
+    border-bottom: 1px solid gray;
+}
+.navig{
+    height: 600px;
+    /*background: lightgray;*/
+    /*border: 1px solid black;*/
+}
+.admin_page{
+    /*width: 100vw;*/
+    height: 100vh;
+    background-color: black;
+    /*background-color: #f2f2f2;*/
+
+}
+.in_nav a {
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    background: #e6e6e6;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding: 6px;
+    width: 180px;
+    color: black;
+    margin-top: 1px;
+}
+.in_nav a:hover{
+    background: white;
+}
+.in_nav{
+    margin-top: 100px;
+}
+.icon1{
+    background-image: url("../../image/calendar.png");
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    margin: 5px 5px;
+    float: left;
+}
+.icon2{
+    background-image: url("../../image/suitcase.png");
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    margin: 5px 5px;
+    float: left;
+}
+.icon3{
+    background-image: url("../../image/add.png");
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    margin: 5px 5px;
+    float: left;
+}
+.icon4{
+    background-image: url("../../image/list.png");
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    margin: 5px 5px;
+    float: left;
+}
+.icon5{
+    background-image: url("../../image/add.png");
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    margin: 5px 5px;
+    float: left;
+}
+.admin{
+    height: 60px;
+}
+.img_admin{
+    margin-top: 6px;
+    margin-left: 4px;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background: lightgrey;
+}
+
+.admin input{
+    margin-top: 3px;
+    font-size: 9pt;
+    border-radius: 10px;
+}
+
+

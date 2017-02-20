@@ -1,0 +1,87 @@
+/*.order_zag{*/
+    /*margin: 10% 0 30px 90px;*/
+/*}*/
+table{
+    width: 100%;
+}
+.table_arch{
+    background: lightgray;
+}
+.tbl table {
+    color: white;
+}
+.tbl table td{
+    font-size: 9pt;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+h2{
+    color: white;
+    border-bottom: 1px solid gray;
+    margin: 80px 0 30px 0;
+}
+.tbl_zagolovok{
+    background-color: lightgray;
+    color: black;
+    height: 35px !important;
+}
+
+.tbl .table_arch {
+    color: black;
+}
+.tbl_ord th{
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 11pt;
+}
+.tbl_ord tr, .tbl_arch td{
+    height: 60px;
+}
+.done{
+    width: 8% !important;
+}
+.num{
+    width: 8% !important;
+    text-align: center !important;
+}
+.okay{
+    background-image: url("../../image/done.svg");
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin: 0 auto;
+}
+.notDane{
+    background-image: url("../../image/notDane.svg");
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+.change{
+    background-image: url("../../image/change2.svg");
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+.back{
+    background-image: url("../../image/back.svg");
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+.amount{
+    width: 10% !important;
+    text-align: center !important;
+}
+
+.done2{
+    width: 10%;
+}
+
+
